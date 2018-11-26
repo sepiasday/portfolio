@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+html, body { height: 100% }
+body { background-color: #fff; color: #000; }
+a { color:  #000;}
+
+article { position: relative; }
+.header { position: absolute; top: 100px; left: 12%; text-transform: capitalize;}
+.header h6 { font-size: 14px;font-weight: 700; height: 10px;}
+.header h2 { font-size: 20px; font-weight: 700; margin: 30px 0; }
+.header h6 a:hover { font-size: 16px; color: #6495ED; } 
+
+.wrap { position: absolute; top: 220px; left: 18%;width: 60%; line-height: 1.6;}
+.wrap h3 { font-size: 26px; font-weight: 600; margin-bottom: 20px; }
+.wrap p { font-size: 18px; font-weight: 300;}
+.wrap #profile { float: left; width: 55% }
+.wrap #intro { float: right; width: 45% }
+.wrap .profile1 { margin:20px; }
+.wrap .intro1 { margin: 20px; }
+.indent1 {display: inline-block; margin-left: 43px; }
+.indent2 {display: inline-block; margin-left: 76px; }
