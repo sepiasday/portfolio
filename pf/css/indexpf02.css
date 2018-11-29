@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+html,body { height: 100%; }
+
+header { width: 1280px;  margin: 80px auto;}
+header ul { width: 100%; margin: 30px 10%; overflow: hidden;}
+header ul li { height: 24px; float: left; font-weight: 700; line-height: 24px;}
+header ul .title { margin-right: 30px; font-size: 24px; }
+header ul .date { margin-right: 15px; font-size: 18px; }
+header p { clear: both; margin: 50px 10%; line-height: 1.4; padding-left: 20px;}
+
+article { width: 1280px; margin: 0 auto; overflow: hidden;}
+article section { width: 40%; margin-left: 10%; float: left; }
+article section h2 { width: 180px; font-size: 18px; border-bottom: 1px solid #000; margin-bottom: 30px; line-height: 1.6; }
+article section h4 { font-size: 24px; padding-left: 20px; margin-bottom: 10px;}
+article section h5 { font-size: 14px; padding-left: 20px; margin-bottom: 15px;}
+
+article .box1 h4 { font-family: 'Montserrat', sans-serif; }
+article .box1 h3 { font-size: 36px; margin-bottom: 20px; padding-left: 10px;}
+article .box1 h3 span{ border-bottom: 1px solid #000; }
+
+article .box1 .fontbox { width: 100%; text-align: center; margin-bottom: 100px; overflow: hidden;}
+article .box1 .fontbox li { width: 46%; float: left; padding: 1%;}
+article .box1 .fontbox .top { height: 75%; font-size: 80px;  font-family: 'Montserrat', sans-serif}
+article .box1 .fontbox .top:nth-child(even) { font-weight: 700; }
+article .box1 .fontbox .bottom { height: 25%; font-size: 14px; }
+article .color { width: 100%; height: 150px; margin-left: 25px;}
+article .color div { height: 36px; float: left; overflow: hidden; margin-bottom: 20px; }
+article .color .circle { width: 10%;}
+article .color .text { width: 40%; font-size: 14px; line-height: 1.4}
+
+article .color .circle div { width: 34px; height: 34px; border: 1px solid #000; border-radius: 50%;}
+article .color .circle1 { background: #000000;}
+article .color .circle2 { background: #e9f4f6;}
+article .color .circle3 { background: #f4f3f3;}
+article .color .circle4 { background: #fde7d9;}
+article .color .circle5 { background: #1d1d1f;}
+article .color .circle6 { background: #8a888a;}
+
+
+
+footer { width: 100%;  }
+footer .imagebox { width: 1280px; height: 350px; margin: 100px auto;}
+footer .imagebox img { width: 50%;height: auto; margin-left: 10%; float: left;}
+
+
+footer .btnbox { width: 40%; height: 300px; float: left; margin-top: 80px;}
+footer .btnbox div { width: 150px; height: 30px; border: 1px solid #999; line-height: 30px;  text-align: center; margin: 30px 100px; display: block;  padding: 5px; transition: 1s;}
+footer .btnbox div:hover { border:1px solid #6495ED; background: #6495ED; }
+footer .btnbox div:hover a { color: #fff; }
