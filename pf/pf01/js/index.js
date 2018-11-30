@@ -16,7 +16,7 @@ $(function(){
 		var idx = $(this).index();
 
 		var sectionh = ht*idx;
-		$('html, body').stop().animate({'scrollTop':sectionh},500);
+		$('html, body').stop().animate({'scrollTop':sectionh},1500);
 	});
 
 
