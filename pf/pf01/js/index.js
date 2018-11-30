@@ -57,10 +57,10 @@ $(function(){
 			//현재 section의 이전 section의 상단에서부터의 위치로
 			//.offset().top 기준 객체가 브라우저 상단에서부터의 거리
 			var prev = $(this).prev().offset().top;
-			$('html, body').stop().animate({'scrollTop':prev},500,"easeInOutExpo");
+			$('html, body').stop().animate({'scrollTop':prev},1500,"easeInOutExpo");
 		}else if (delta < 0) {//마우스 휠을 내렸을때
 			var next = $(this).next().offset().top;
-			$('html, body').stop().animate({'scrollTop':next},500,"easeInOutExpo");
+			$('html, body').stop().animate({'scrollTop':next},1500,"easeInOutExpo");
 		}
 	})
 
